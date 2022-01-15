@@ -1,7 +1,7 @@
 #' Szuka najmniejszej wspolnej wielokrotnosci oraz najwiekszego wspolnego dzielnika
 #' @export
-#' @param x numeric variable
-#' @param y numeric variable
+#' @param x integer variable
+#' @param y integer variable
 #' @param ... additional arguments to be passed in the future update of this package
 
 NwdNww <- function(x, y, ...) UseMethod("NwdNww")
