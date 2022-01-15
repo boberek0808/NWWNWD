@@ -7,6 +7,8 @@
 NwdNww <- function(x, y, ...) UseMethod("NwdNww")
 
 NwdNww.default <- function(x,y,...){
+  stopifnot(is.numeric(x))
+  stopifnot(is.numeric(y))
   x2<-x
   y2<-y
   while(x!=y){
